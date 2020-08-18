@@ -8,3 +8,4 @@ Small project of a robot used to help me organising my extensive mailbox. This w
 * **Drivers - ** folder with the instalation files to use Selenium with Firefox in Linux
 * **RobotIstEmails.py -  ** main code with the robot functionalities to organize the emails in the different folders
 * **rules.txt - ** contains the keywords used to identify the type of emails according to their subject, and the destination folder where they should be moved
+
