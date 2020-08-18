@@ -1,0 +1,13 @@
+#!/bin/bash
+
+printf '\n*Previous PATH:\n'
+echo $PATH
+
+export PATH=$PATH:/home/bruno/Documents/AutomateIst/Drivers/.
+printf '\n*New PATH:\n'
+echo $PATH
+
+# When running ./configurePath we can send an extra parameter to define how
+# many page of messages we want to organize
+printf "\nExecuting robot...\n"
+python3 RobotIstEmails.py $1
